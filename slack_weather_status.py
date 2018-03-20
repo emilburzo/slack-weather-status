@@ -13,7 +13,7 @@ WEATHER_CODES = {
     '2': ':lightning:',
     '3': ':rain_cloud:',
     '5': ':rain_cloud:',
-    '6': ':snow_cloud:',
+    '6': ':snowflake:',
     '7': ':fog:',
     '80': ':cloud:',
     '800': ':sunny:',
