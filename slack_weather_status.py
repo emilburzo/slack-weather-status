@@ -55,7 +55,7 @@ if __name__ == '__main__':
     text = '{}°C and {}'.format(round(temp), weather.get('description'))
     emoji = get_emoji(weather.get('id'))
 
-    r = requests.post('https://slack.com/api/users.profile.set', verify=False, data={
+    r = requests.post('https://slack.com/api/users.profile.set', data={
         'token': SLACK_API_KEY,
         'profile': build_status(text, emoji)
     })
